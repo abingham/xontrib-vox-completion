@@ -48,7 +48,7 @@ def _vox_remove(prefix, line, begidx, endidx, ctx):
     return set(env for env in envs if env.startswith(prefix))
 
 
-completer add vox _vox_completer
+completer add vox vox_completer
 
 
 __all__ = ()
